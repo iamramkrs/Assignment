@@ -1,0 +1,84 @@
+@media (min-width:992px){
+    #div1,#div2,#div3{
+        width: 32%;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    #div1,#div2{
+        width: 47.5%;
+    }
+    #div3{
+        width: 100%;
+    }
+}
+@media (max-width:767px){
+    div{
+        width: 100%;
+    }
+}
+div#container{
+    width: 100%;
+    background-color: teal;
+    height: 150px;
+    overflow: auto;
+    margin-left: 0px;
+}
+h3{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+div{
+    height: 144px;
+    margin-left: 10px;
+    overflow: auto;
+    color: rgb(231, 210, 23);
+    float: left;
+    width: 400px;
+    text-align: center;
+    border: 1px solid black;
+    position: relative;
+}
+
+#div1{
+    background-color: rgb(214, 84, 23);
+}
+#div2{
+    background-color: white;
+}
+#div3{
+    background-color: limegreen;
+}/*
+#div1,#div2,#div3{
+    width: 32.2%;
+    text-align: center;
+    border: 1px solid black;
+}*/
+#p1,#p2,#p3{
+    position: relative;
+    box-sizing: border-box;
+    border:2px solid rgb(0, 0, 0);
+    background-color: teal;
+    color: white;
+    float: right;
+    margin-top: 0px;
+}
+/*
+#p2{
+    position: relative;
+    box-sizing: border-box;
+    border:2px solid rgb(0, 0, 0);
+    background-color: teal;
+    color: rgb(255, 255, 255);
+    float: right;
+    margin-top: 0px;
+}
+#p3{
+    position:relative;
+    box-sizing: border-box;
+    border:2px solid black;
+    color: rgb(255, 255, 255);
+    background-color: teal;
+    float: right;
+    margin-top: 0px;
+}
